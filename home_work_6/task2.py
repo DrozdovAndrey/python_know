@@ -17,6 +17,8 @@ def is_attacking(q1, q2):
 def check_queens(queens):
     '''Функция, которая проверяет все возможные пары ферзей'''
     len_queens = len(queens)
+    if len_queens == 1:
+        return True
     chess_table = create_table(len_queens)
     for i in queens:
         chess_table[i[0] - 1][i[1] - 1] = 1
@@ -61,3 +63,16 @@ def check_diagonal(chess_table):
 
 print(check_queens(queens))
 
+# Решение из задачи
+# from itertools import combinations
+#
+# def is_attacking(q1, q2):
+#     # Проверяем, бьют ли ферзи друг друга
+#     return q1[0] == q2[0] or q1[1] == q2[1] or abs(q1[0] - q2[0]) == abs(q1[1] - q2[1])
+
+def check_queens(queens):
+    # Проверяем все возможные пары ферзей
+    for q1, q2 in combinations(queens, 2):
+        if is_attacking(q1, q2):
+            return False
+    return True
