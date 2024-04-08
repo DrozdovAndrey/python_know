@@ -13,6 +13,7 @@ bank_account = decimal.Decimal(0)
 count = 0
 operations = []
 
+
 # Введите ваше решение ниже
 
 
@@ -55,7 +56,7 @@ def withdraw(amount):
         if check_multiplicity(amount) and bank_account - amount - amount * PERCENT_REMOVAL >= 0:
             bank_account -= amount * PERCENT_REMOVAL + amount
             operations.append(f'Снятие с карты {amount} у.е. Процент за снятие {amount * PERCENT_REMOVAL} у.е.. '
-                          f'Итого {bank_account} у.е.')
+                              f'Итого {bank_account} у.е.')
         else:
             operations.append(f'Недостаточно средств. Сумма с комиссией {amount + MAX_REMOVAL} у.е. '
                               f'На карте {bank_account} у.е.')
@@ -80,7 +81,6 @@ def check_multiplicity(amount):
     if amount % MULTIPLICITY != 0:
         print(f'Сумма должна быть кратной 50 у.е.')
     return amount % MULTIPLICITY == 0
-
 
 
 deposit(173)
@@ -132,7 +132,8 @@ print(operations)
 #     if bank_account >= amount + percent:
 #         count += 1
 #         bank_account = bank_account - amount - percent
-#         operations.append(f'Снятие с карты {amount} у.е. Процент за снятие {int(percent)} у.е.. Итого {int(bank_account)} у.е.')
+#         operations.append(f'Снятие с карты {amount} у.е. Процент за снятие {int(percent)} у.е..
+#         Итого {int(bank_account)} у.е.')
 #     else:
 #         operations.append(
 #             f'Недостаточно средств. Сумма с комиссией {amount + int(percent)} у.е. На карте {int(bank_account)} у.е.')
