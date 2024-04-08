@@ -25,6 +25,7 @@ def my_func(count_names):
             if is_a_letter(name):
                 names.append(name.capitalize())
                 flag = True
+    save_to_file(names)
     return names
 
 
@@ -36,4 +37,10 @@ def is_a_letter(name_str):
     return False
 
 
-print(my_func(5))
+def save_to_file(lst_names):
+    with open('file_2.txt', 'w', encoding='utf-8') as f:
+        for i in lst_names:
+            f.writelines(f'{i}\n')
+
+
+my_func(5)
