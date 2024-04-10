@@ -9,7 +9,7 @@ import json
 
 
 def my_func():
-    with open('file_3.txt', 'r', encoding='utf-8') as f:
+    with open('C:\\Users\\drozd\\PycharmProjects\\pythonProject\\seminar_7\\file_3.txt', 'r', encoding='utf-8') as f:
         my_dict = {}
         for line in f:
             a, b = line.split(':')
