@@ -27,7 +27,7 @@ def my_func():
             b = float(b)
             list_f1.append(a * b)
         for i in f2:
-            list_f2.append(i)
+            list_f2.append(i[:-1])
         max_len = max(len(list_f1), len(list_f2))
         if len(list_f2) > len(list_f1):
             for i in range(len(list_f2) - len(list_f1)):
@@ -36,7 +36,7 @@ def my_func():
             for i in range(len(list_f1) - len(list_f2)):
                 list_f2.append(list_f2[i])
         for i in range(max_len):
-            f3.writelines(f'{list_f2[i]} : {str(list_f1[i])}\n')
+            f3.writelines(f'{list_f2[i]}:{str(list_f1[i])}\n')
 
 
 my_func()
