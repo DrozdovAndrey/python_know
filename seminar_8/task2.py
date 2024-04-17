@@ -27,13 +27,8 @@ def load_json() -> dict:
 
 
 def upload_json(user_db: dict):
-    if not os.path.exists(PATH_DB):
-        with open(PATH_DB, 'w', encoding="utf-8") as file:
-            json.dump(user_db)
-    else:
-        with open(PATH_DB, 'a', encoding="utf-8") as file:
-            json.dump(user_db)
-
+    with open(PATH_DB, 'w', encoding="utf-8") as file:
+        json.dump(user_db, file, ensure_ascii=False)
 
 
 def input_name() -> str:
@@ -47,8 +42,17 @@ def input_id(set_ids: set) -> str:
     while True:
         id_ = input('Введите id: ')
         if id_.isdigit():
-            if int(id_) not in set_ids:
+            if id_ not in set_ids:
                 return id_
+
+
+def create_set_ids(user_db: dict) -> set:
+    set_ids = set()
+    for list_ids in user_db.values():
+        for dict_ids in list_ids:
+            for id_ in dict_ids.keys():
+                set_ids.add(id_)
+    return set_ids
 
 
 def input_access_level() -> str:
@@ -66,5 +70,19 @@ def main():
         name = input_name()
         if not name:
             break
-        id_name = input_id(user_db)
+        id_name = input_id(create_set_ids(user_db))
         access_level = input_access_level()
+        if access_level not in user_db.keys():
+            user_db[access_level] = [{id_name: name}]
+        else:
+            user_db[access_level].append({id_name: name})
+        upload_json(user_db)
+
+
+main()
+
+# my_dict = {'1': [{'1': 'Andrey'}, {'2': 'LEx'}]}
+# print(my_dict)
+# my_dict['1'].append({'3': 'gobl'})
+#
+# print(my_dict)
