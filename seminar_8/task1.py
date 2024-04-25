@@ -13,7 +13,7 @@ def my_func():
         my_dict = {}
         for line in f:
             a, b = line.split(':')
-            my_dict[a] = b[:-1]
+            my_dict[a] = b.strip()
         print(my_dict)
     with open('new_file_3.json', 'w', encoding='utf-8') as f2:
         json.dump(my_dict, f2, ensure_ascii=False)

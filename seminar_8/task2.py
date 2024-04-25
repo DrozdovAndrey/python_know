@@ -39,6 +39,7 @@ def input_name() -> str:
 
 def input_id(set_ids: set) -> str:
     """Функция запрашивает и возвращает id еще нужна проверка на уникальрость айди"""
+
     while True:
         id_ = input('Введите id: ')
         if id_.isdigit():
@@ -47,6 +48,7 @@ def input_id(set_ids: set) -> str:
 
 
 def create_set_ids(user_db: dict) -> set:
+    """Функция создает и возвращает сет из айдишников"""
     set_ids = set()
     for list_ids in user_db.values():
         for dict_ids in list_ids:
@@ -79,7 +81,7 @@ def main():
         upload_json(user_db)
 
 
-main()
+
 
 # my_dict = {'1': [{'1': 'Andrey'}, {'2': 'LEx'}]}
 # print(my_dict)

@@ -9,26 +9,28 @@
 # Имя исходного и конечного файлов передавайте как аргументы
 # функции.
 import csv
+import json
 
 
-def read_csv(csv_name: str, json_name:str):
-    with open (csv_name, 'r', newline='') as fr:
+def read_csv(csv_name: str, json_name: str):
+    with open(csv_name, 'r', newline='') as fr:
         csv_file = csv.reader(fr)
-        keys = []
         count = 0
-        my_dict = dict()
+        keys = []
+        lst = []
         for line in csv_file:
             if count == 0:
-                keys = line
+                for key in line:
+                    keys.append(key)
                 count += 1
             else:
-                my_dict
+                len_lst = len(keys)
+                my_dict = dict()
+                for i in range(len_lst):
+                    my_dict[keys[i]] = line[i]
+                lst.append(my_dict)
+    with open(json_name, 'w', encoding='utf-8') as fw:
+        json.dump(lst, fw)
 
 
-with open('data_in_csv.csv', 'r', newline='') as f:
-    csv_file = csv.reader(f)
-    for line in csv_file:
-        print(line)
-        print(type(line))
-
-
+read_csv('user_db.csv', 'new_user_db.json')
