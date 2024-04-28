@@ -33,14 +33,19 @@
 # Затем, для каждой директории (name в dirs), также создается полный путь к директории (path = os.path.join(root, name)),
 # и вызывается функция get_dir_size(path), чтобы получить размер всей директории с учетом ее содержимого. Информация о
 # директории добавляется в список results в виде словаря {'Path': path, 'Type': 'Directory', 'Size': size}.
-
+# Введите ваше решение ниже
+import csv
+import json
 import os
+import pickle
 
 
 def get_dir_size(path: str):
     size = 0
-    for ele in os.scandir(path):
-        size += os.path.getsize(ele)
+    for path_, dirs, files in os.walk(path):
+        for f in files:
+            fp = os.path.join(path_, f)
+            size += os.path.getsize(fp)
     return size
 
 
@@ -65,4 +70,25 @@ def traverse_directory(directory: str):
             results.append(my_dir_dict)
     return results
 
-print(traverse_directory('C:\\Users\\drozd\\PycharmProjects\\pythonProject\\seminar_8'))
+
+def save_results_to_json(results: list, name='results.json'):
+    with open(name, 'w', encoding='utf-8') as file:
+        json.dump(results, file)
+
+
+def save_results_to_csv(results: list, name='results.csv'):
+    with open(name, 'w', newline='', encoding='utf-8') as file:
+        csv_writer = csv.DictWriter(file, fieldnames = ['Path', 'Type', 'Size'], dialect='excel')
+        csv_writer.writeheader()
+        csv_writer.writerows(results)
+
+
+def save_results_to_pickle(results: list, name='results.pkl'):
+    with open(name, 'wb') as file:
+        pickle.dump(results, file)
+
+
+lst = traverse_directory('C:\\Users\\drozd\\PycharmProjects\\pythonProject\\seminar_8')
+save_results_to_json(lst)
+save_results_to_csv(lst)
+save_results_to_pickle(lst)
