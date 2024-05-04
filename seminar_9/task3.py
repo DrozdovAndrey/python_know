@@ -28,7 +28,7 @@ def save_to_json(func: Callable):
         for key, value in lst_kwargs.items():
             my_dict[key] = value
         my_dict['result'] = result
-        # хз верно ли распаковал ключевые аргументы,
+        # хз верно ли распаковал ключевые аргументы - ключевые аргументы распаковываются в словарь
         with open(name, 'w', encoding='utf-8') as fw:
             if len(lst) == 0:
                 json.dump(my_dict, fw)
