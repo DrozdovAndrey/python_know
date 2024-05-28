@@ -1,0 +1,518 @@
+ERROR:Основной файл проекта:error
+ERROR:Основной файл проекта:NegativeValueError: Ширина должна быть положительной, а не -5
+ERROR:Rectangle:NegativeValueError: Ширина должна быть положительной, а не -5
+ERROR:Rectangle:NegativeValueError: Ширина должна быть положительной, а не -1
+ERROR:Rectangle:NegativeValueError: Ширина должна быть положительной, а не -1
+ERROR:Rectangle:Высота должна быть положительной, а не -5
+2024-05-27 23:00:59,072 - ERROR - NegativeValueError: Высота должна быть положительной, а не -5
+2024-05-27 23:16:41,528 - ERROR - __init__ - NegativeValueError: Высота должна быть положительной, а не -5
+2024-05-28 10:16:56,366 - ERROR - Rectangle - 43 - __init__ - NegativeValueError: Высота должна быть положительной, а не -5
+ERROR: 2024-05-28 10:18:01,948 - Rectangle - 43 - __init__ - NegativeValueError: Высота должна быть положительной, а не -5
+ERROR: 2024-05-28 10:20:31,428, module: Rectangle, function: __init__, line: 43, msg NegativeValueError: Высота должна быть положительной, а не -5
+ERROR: 2024-05-28 10:20:44,767, module: Rectangle, function: __init__, line: 43, msg: NegativeValueError: Высота должна быть положительной, а не -5
+ERROR: 2024-05-28 10:21:06,669, module: Rectangle, function: __init__, line: 43,
+msg: NegativeValueError: Высота должна быть положительной, а не -5
+ERROR: 2024-05-28 10:23:47,088, module: Rectangle, function: __init__, line: 43,
+msg: NegativeValueError: Высота должна быть положительной, а не -5
+ERROR: 2024-05-28 10:24:06,227, module: Rectangle, function: __init__, line: 43,
+msg: NegativeValueError: Высота должна быть положительной, а не -5
+ERROR: 2024-05-28 10:27:02,385, module: logger_errors, function: __init__, line: 43,
+msg: NegativeValueError: Высота должна быть положительной, а не -5
+INFO: 2024-05-28 10:36:07,131, module: Rectangle, function: __init__, line: 48,
+msg: Create Rectangle: with = 3, height = 5
+ERROR: 2024-05-28 10:36:23,775, module: Rectangle, function: __init__, line: 44,
+msg: NegativeValueError: Высота должна быть положительной, а не -5
+ERROR: 2024-05-28 10:36:48,140, module: Rectangle, function: __init__, line: 44,
+msg: NegativeValueError: Высота должна быть положительной, а не -5
+INFO: 2024-05-28 10:36:56,770, module: Rectangle, function: __init__, line: 48,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:44:53,439, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:44:53,439, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:45:54,905, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:45:54,905, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:46:33,346, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:46:33,346, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:49:49,447, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:49:49,448, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 10:49:49,448, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:49:49,448, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 10:52:08,518, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:52:08,518, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 10:52:08,518, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:52:08,519, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 10:52:08,519, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:52:08,519, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:52:08,519, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 10:52:08,519, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Прямоугольник со сторонами 18 и 205
+INFO: 2024-05-28 10:52:55,587, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:52:55,587, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 10:52:55,587, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:52:55,587, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 10:52:55,587, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:52:55,587, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:52:55,587, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 10:52:55,587, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Rectangle(18, 205)
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Rectangle(18, 205)
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 12, height = 195
+INFO: 2024-05-28 10:54:02,081, module: Rectangle, function: __sub__, line: 104,
+msg: Rectangle(15, 200) - Rectangle(3, 5) = Rectangle(12, 195)
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Rectangle(18, 205)
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 12, height = 195
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: __sub__, line: 104,
+msg: Rectangle(15, 200) - Rectangle(3, 5) = Rectangle(12, 195)
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: area, line: 68,
+msg: Rectangle(12, 195), area = 2340
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: area, line: 68,
+msg: Rectangle(18, 205), area = 3690
+INFO: 2024-05-28 10:56:23,210, module: Rectangle, function: __lt__, line: 118,
+msg: Rectangle(12, 195) < Rectangle(18, 205) = True
+INFO: 2024-05-28 10:57:41,648, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:57:41,648, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 10:57:41,648, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:57:41,648, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 10:57:41,648, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:57:41,648, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:57:41,648, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Rectangle(18, 205)
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 12, height = 195
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: __sub__, line: 104,
+msg: Rectangle(15, 200) - Rectangle(3, 5) = Rectangle(12, 195)
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: area, line: 68,
+msg: Rectangle(12, 195), area = 2340
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: area, line: 68,
+msg: Rectangle(18, 205), area = 3690
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: __lt__, line: 118,
+msg: Rectangle(12, 195) < Rectangle(18, 205) = True
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 10:57:41,649, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(3, 5) == Rectangle(15, 200) = False
+INFO: 2024-05-28 10:58:58,647, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Rectangle(18, 205)
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 12, height = 195
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: __sub__, line: 104,
+msg: Rectangle(15, 200) - Rectangle(3, 5) = Rectangle(12, 195)
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: area, line: 68,
+msg: Rectangle(12, 195), area = 2340
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: area, line: 68,
+msg: Rectangle(18, 205), area = 3690
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: __lt__, line: 118,
+msg: Rectangle(12, 195) < Rectangle(18, 205) = True
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(3, 5) == Rectangle(15, 200) = False
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 10:58:58,648, module: Rectangle, function: __le__, line: 146,
+msg: Rectangle(3, 5) <= Rectangle(15, 200) = True
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Rectangle(18, 205)
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 12, height = 195
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: __sub__, line: 104,
+msg: Rectangle(15, 200) - Rectangle(3, 5) = Rectangle(12, 195)
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: area, line: 68,
+msg: Rectangle(12, 195), area = 2340
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: area, line: 68,
+msg: Rectangle(18, 205), area = 3690
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: __lt__, line: 118,
+msg: Rectangle(12, 195) < Rectangle(18, 205) = True
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(3, 5) == Rectangle(15, 200) = False
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: __le__, line: 146,
+msg: Rectangle(3, 5) <= Rectangle(15, 200) = True
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: width, line: 191,
+msg: Changed width = 5
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: height, line: 182,
+msg: Changed height = 3
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: area, line: 68,
+msg: Rectangle(5, 3), area = 15
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:03:48,904, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(5, 3) == Rectangle(3, 5) = True
+ERROR: 2024-05-28 11:03:48,905, module: Rectangle, function: __init__, line: 43,
+msg: NegativeValueError: Высота должна быть положительной, а не -5
+INFO: 2024-05-28 11:05:08,424, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Rectangle(18, 205)
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 12, height = 195
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: __sub__, line: 104,
+msg: Rectangle(15, 200) - Rectangle(3, 5) = Rectangle(12, 195)
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: area, line: 68,
+msg: Rectangle(12, 195), area = 2340
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: area, line: 68,
+msg: Rectangle(18, 205), area = 3690
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: __lt__, line: 118,
+msg: Rectangle(12, 195) < Rectangle(18, 205) = True
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(3, 5) == Rectangle(15, 200) = False
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: __le__, line: 146,
+msg: Rectangle(3, 5) <= Rectangle(15, 200) = True
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: width, line: 191,
+msg: Changed width = 5
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: height, line: 182,
+msg: Changed height = 3
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: area, line: 68,
+msg: Rectangle(5, 3), area = 15
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:05:08,425, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(5, 3) == Rectangle(3, 5) = True
+ERROR: 2024-05-28 11:05:08,425, module: Rectangle, function: __init__, line: 43,
+msg: NegativeValueError: Высота должна быть положительной, а не -5
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Rectangle(18, 205)
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 12, height = 195
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: __sub__, line: 104,
+msg: Rectangle(15, 200) - Rectangle(3, 5) = Rectangle(12, 195)
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: area, line: 68,
+msg: Rectangle(12, 195), area = 2340
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: area, line: 68,
+msg: Rectangle(18, 205), area = 3690
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: __lt__, line: 118,
+msg: Rectangle(12, 195) < Rectangle(18, 205) = True
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(3, 5) == Rectangle(15, 200) = False
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: __le__, line: 146,
+msg: Rectangle(3, 5) <= Rectangle(15, 200) = True
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: width, line: 191,
+msg: Changed width = 5
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: height, line: 182,
+msg: Changed height = 3
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: area, line: 68,
+msg: Rectangle(5, 3), area = 15
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:05:22,112, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(5, 3) == Rectangle(3, 5) = True
+ERROR: 2024-05-28 11:05:22,113, module: Rectangle, function: width, line: 187,
+msg: NegativeValueError: Ширина должна быть положительной, а не -5
+INFO: 2024-05-28 11:05:34,901, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Rectangle(18, 205)
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 12, height = 195
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: __sub__, line: 104,
+msg: Rectangle(15, 200) - Rectangle(3, 5) = Rectangle(12, 195)
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: area, line: 68,
+msg: Rectangle(12, 195), area = 2340
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: area, line: 68,
+msg: Rectangle(18, 205), area = 3690
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: __lt__, line: 118,
+msg: Rectangle(12, 195) < Rectangle(18, 205) = True
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(3, 5) == Rectangle(15, 200) = False
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: __le__, line: 146,
+msg: Rectangle(3, 5) <= Rectangle(15, 200) = True
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: width, line: 191,
+msg: Changed width = 5
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: height, line: 182,
+msg: Changed height = 3
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: area, line: 68,
+msg: Rectangle(5, 3), area = 15
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:05:34,902, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(5, 3) == Rectangle(3, 5) = True
+ERROR: 2024-05-28 11:05:34,902, module: Rectangle, function: height, line: 178,
+msg: NegativeValueError: Высота должна быть положительной, а не -3
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 3, height = 5
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 15, height = 200
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 18, height = 205
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: __add__, line: 85,
+msg: Rectangle(3, 5) + Rectangle(15, 200) = Rectangle(18, 205)
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(15, 200), perimetr = 430
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: perimeter, line: 57,
+msg: Rectangle(3, 5), perimetr = 16
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: __init__, line: 47,
+msg: Create Rectangle: with = 12, height = 195
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: __sub__, line: 104,
+msg: Rectangle(15, 200) - Rectangle(3, 5) = Rectangle(12, 195)
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: area, line: 68,
+msg: Rectangle(12, 195), area = 2340
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: area, line: 68,
+msg: Rectangle(18, 205), area = 3690
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: __lt__, line: 118,
+msg: Rectangle(12, 195) < Rectangle(18, 205) = True
+INFO: 2024-05-28 11:19:46,059, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:19:46,060, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:19:46,060, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(3, 5) == Rectangle(15, 200) = False
+INFO: 2024-05-28 11:19:46,060, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:19:46,060, module: Rectangle, function: area, line: 68,
+msg: Rectangle(15, 200), area = 3000
+INFO: 2024-05-28 11:19:46,060, module: Rectangle, function: __le__, line: 146,
+msg: Rectangle(3, 5) <= Rectangle(15, 200) = True
+INFO: 2024-05-28 11:19:46,060, module: Rectangle, function: width, line: 191,
+msg: Changed width = 5
+INFO: 2024-05-28 11:19:46,060, module: Rectangle, function: height, line: 182,
+msg: Changed height = 3
+INFO: 2024-05-28 11:19:46,060, module: Rectangle, function: area, line: 68,
+msg: Rectangle(5, 3), area = 15
+INFO: 2024-05-28 11:19:46,060, module: Rectangle, function: area, line: 68,
+msg: Rectangle(3, 5), area = 15
+INFO: 2024-05-28 11:19:46,060, module: Rectangle, function: __eq__, line: 132,
+msg: Rectangle(5, 3) == Rectangle(3, 5) = True
+ERROR: 2024-05-28 11:19:46,060, module: Rectangle, function: __init__, line: 43,
+msg: NegativeValueError: Высота должна быть положительной, а не -5
